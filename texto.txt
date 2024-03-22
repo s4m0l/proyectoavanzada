@@ -1,0 +1,6 @@
+En el proyecto utilizamos los patrones de diseño singleton y observer.
+
+El singleton lo utilizamos en la clase GestorTareas para asegurarnos que solo haya una onstancia de esta clase en todo el programa.
+Usamos la variable _instance que guarda la unica instancia creada
+
+El observer lo usamos en la clase Notificador, es clase depende de la lista de areas para saber que tareas estan pendientes para notificar sobre las tareas que se van a vencer.
